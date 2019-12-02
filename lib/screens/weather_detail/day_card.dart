@@ -7,7 +7,7 @@ class DayCard extends StatelessWidget {
       children: <Widget>[
         Text('------'),
         Text('MON'),
-        Text('icon'),
+        Icon(const IconData(0xe902, fontFamily: 'weather'), size: 20.0, color: Colors.black),
         Text('temperature'),
       ],
     );
